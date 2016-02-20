@@ -8,17 +8,17 @@
 ; intel syntax
 ; op dst, src
 
-section .data                           ; data segment	
+section .data                               ; data segment	
 	in_mess db 'What is your name? '    ; query user message
 	len_in_mess equ $-in_mess           ; length of the query message
 	disp_mess db 'Hello,  '             ; inform user message
 	len_disp_mess equ $-disp_mess       ; length of inform message
 
-section .bss                            ; uninitialized data
+section .bss                                ; uninitialized data
 	name resb 10                        ; declare uninitialized data; the user input that is at most 5 bytes
-                                        ; resb is a pseudo-instruction in nasm that is equ for uninitialized data
+	                                    ; resb is a pseudo-instruction in nasm that is equ for uninitialized data
 
-section .text                           ; code segment
+section .text                               ; code segment
 	global  _start
 
 _start:
