@@ -12,7 +12,7 @@ Prevention??
 
 ## Estimated Population
 
-According to [this link]((http://www.census.gov):
+According to [this link](http://www.census.gov):
  - There is a birth every 7 seconds.
  - There is a death every 13 seconds.
  - There is a new immigrant every 35 seconds.
